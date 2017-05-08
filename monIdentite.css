@@ -1,0 +1,22 @@
+html{background-color: gray;
+width: 100%}
+body{background-color:#9ACD32;/*couleur yellowGreen*/
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+overflow-x :hidden;}
+figure p{position: relative;
+color: red;}	
+figure{background-image: url(jajaId.jpg);
+width: 780px;
+height: 180px;
+border: 1px solid black;
+margin-left: 0.5px;
+ background-repeat: no-repeat;}
+#secGenerale{width: 800px;
+height: 800px;	
+margin-left: auto;
+margin-right: auto;
+background-color: #FFE4B5;/*couleur mocassin*/
+overflow:scroll;
+overflow-x:hidden;}
