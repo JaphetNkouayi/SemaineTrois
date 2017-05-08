@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ma Carte de visit</title>
+	<meta charset="utf-8">
+	<link rel="styleSheet" type="text/css" href="monIdentite.css">
+	<!--<style type="text/css">body{background-color:blue;}</style> pour tester le fichier css-->
+</head>
+<body>
+   <section id="secGenerale"> 
+    <header>
+    	<figure>
+         <br><p>Nkouayi Japhet</p>
+    	</figure>
+    </header>
+    <section id="desCord">
+        <hr>
+    	<article class="articleGauche">
+    		<h2>Une description</h2>
+    		<p>Je suis un garçon agé de vingt-cinq ans avec une ambition de crée mon propre site internet <br> dans lequel je pourrais publier mes articles liés à mes activités proféssionelles.<br> Des images, Mes musiqu , productions etc</p>
+    	</article>
+    	<hr>
+    	<article class="articleDroit">
+    		<h2>Mes Coordonnées</h2>
+    		<p>EMAIL:japhet-marc@hotmail.com<br>
+    		TEL  : 0032488863056<br>
+    		FACEBOOK : <a href="https://www.facebook.com/JajaMixJaphet" target="_blank">Vers ma page</a> </p>
+    	</article>
+    </section>
+    <footer>
+        <form method="" action=""><!--formulaire nom prenom-->
+        <fieldset> <legend> Vos Coordonnées</legend>
+         <p>
+           <label >Votre prenom :</label>
+
+           <input type="text" placeholder="Ex : Japhet" size="10" maxlength="10" /><br>
+
+           <label>Votre Nom :</label>
+
+           <input type="text" placeholder="Ex : Dupont " size="10" maxlength="15" />
+         </p>
+         <p>
+
+           <label>Votre Sexe :</label><br />
+           <select name="Sexe" >
+              <option value="Masculin">Masculin</option>
+              <option value="Feminin" selected>Feminin</option>
+          </select>
+
+         </p>
+         <p>
+           Selectionnez la tranche d'âge dans laquelle vous vous situez :<br />
+           <input type="radio" name="age" /> <label >Moins de 15 ans</label><br />
+           <input type="radio" name="age" /> <label >15-25 ans</label><br />
+           <input type="radio" name="age" /> <label >25-40 ans</label><br />
+           <input type="radio" name="age" /> <label >Encore plus vieux que ça ?!</label>
+         </p>
+         <p>
+               Cochez Votre état civil svp :<br />
+            <input type="checkbox" name="frites" id="frites" /> <label for="frites">Celibataire</label><br />
+            <input type="checkbox" name="steak" id="steak" /> <label for="steak">Marié(e)</label><br />
+        </p>
+        <p>
+              <label > Que pensez-vous de mon site ?</label><br>
+              <textarea  rows="10" cols="50"></textarea> <br> 
+              <input type="submit" value="Envoyer" />     
+        </p>
+       </fieldset>
+      </form>
+    </footer>
+ </section>
+</body>
+</html>
