@@ -1,0 +1,44 @@
+body{font-family: sans-serif,verdana;
+background: blue;}
+div{padding-top: 2px;
+width: 1200px;
+height: 700px;	
+border: 3px dotted blue;}
+ img{margin: 1em;
+ position: absolute;	
+display:block; 
+width: 100px;
+height: 150px;
+border-radius: 50px;
+vertical-align: middle;
+}
+
+img{ -webkit-animation: boxMovement 15s;}
+
+div{-webkit-animation: fondCouleur 15s;}
+
+@keyframes fondCouleur{
+0%{background: blue,#FFFAFA;} /*snow*/
+
+25%{background: blue, #F5F5F5;}/*whiteSmoke*/
+
+50%{background-color:blue, #C0C0C0;}/*silver*/
+
+75%{background: blue,#FFFFF0;}/*ivory*/
+
+100%{background: blue,#E0FFFF;}/*lightCyan*/
+}
+@keyframes boxMovement{
+
+0%{top: 0px; left: 1000px; transform: rotate(90deg);background: #191970;transform: rotate(-90deg)}
+
+25%{top: 0px; left: 1000px; transform: rotate(180deg); background: blue,#7B68EE;}
+
+50%{top: 0px; left: 1000px; transform: rotate(240deg) ; background: blue;}
+
+70%{top: 0px; left: 1000px; transform: rotate(360deg); background: blue,#4682B4;}
+
+100%{top: 0px; left: 1000px; transform: rotate(0deg); background: blue;
+transform: rotate(-90deg);}
+
+}
