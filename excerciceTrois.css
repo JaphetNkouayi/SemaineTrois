@@ -1,0 +1,11 @@
+h1{color: green;}
+td,th{border:1px solid black;
+text-align: center;}
+table{border-collapse: collapse;
+width: 100%;}
+.femme{color: #800080 }/*purple*/
+.homme{color: green;}
+
+tbody tr:nth-child(odd) {
+    background: gray;
+}
